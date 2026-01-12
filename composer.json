@@ -12,8 +12,8 @@
     ],
     "require": {
         "php": "^8.2",
-        "laravel-zero/framework": "^12.0.2",
-        "light-vehikl/lvobjects": "^0.1@dev"
+        "laravel-zero/framework": "12.0.2",
+        "light-vehikl/lvobjects": "^0.2@alpha"
     },
     "require-dev": {
         "laravel/pint": "^1.25.1",
