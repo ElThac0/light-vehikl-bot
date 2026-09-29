@@ -2,7 +2,7 @@
 
 A project to help you set up and run your own bot for the Light-Vehikl game.
 
-Your bot only implement one public function `decideMove`.
+Your bot only needs to implement one public function `decideMove`.
 
 On each server event, the server will send out the state of the arena via a websocket.
 This project has already been set up to receive that websocket event and pass the Arena
