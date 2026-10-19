@@ -9,18 +9,9 @@ use LightVehikl\LvObjects\GameObjects\Player;
 
 class MyBot implements Personality
 {
-
-    private Player $player;
-
-    public function decideMove(Arena $arena): Direction|null
+    public function decideMove(Arena $arena, Player $player): Direction|null
     {
         // TODO: Implement decideMove() method.
         return null;
-    }
-
-    public function updatePlayer(Player $player): static
-    {
-        $this->player = $player;
-        return $this;
     }
 }
