@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="440" viewBox="0 0 440 440" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <pattern id="cell" width="12" height="12" patternUnits="userSpaceOnUse" x="64" y="64">
+      <path d="M 12 0 L 0 0 0 12" fill="none" stroke="#cbd5e0" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4a5568"/>
+    </marker>
+  </defs>
+
+  <rect width="440" height="440" fill="#ffffff"/>
+
+  <!-- 26 x 26 grid (0..25), 12px cells -->
+  <rect x="64" y="64" width="312" height="312" fill="url(#cell)" stroke="#4a5568" stroke-width="2"/>
+
+  <!-- Corner cells -->
+  <rect x="64" y="64" width="12" height="12" fill="#3182ce"/>
+  <rect x="364" y="364" width="12" height="12" fill="#e53e3e"/>
+
+  <!-- Corner labels -->
+  <text x="82" y="96" font-size="14" font-weight="600" fill="#2b6cb0">0, 0</text>
+  <text x="82" y="112" font-size="11" fill="#4a5568">top left (North West)</text>
+  <text x="358" y="338" font-size="14" font-weight="600" fill="#c53030" text-anchor="end">25, 25</text>
+  <text x="358" y="354" font-size="11" fill="#4a5568" text-anchor="end">bottom right (South East)</text>
+
+  <!-- Compass -->
+  <text x="220" y="30" font-size="16" font-weight="700" fill="#1a202c" text-anchor="middle">NORTH</text>
+  <text x="220" y="424" font-size="16" font-weight="700" fill="#1a202c" text-anchor="middle">SOUTH</text>
+  <text x="24" y="220" font-size="16" font-weight="700" fill="#1a202c" text-anchor="middle" transform="rotate(-90 24 220)">WEST</text>
+  <text x="416" y="220" font-size="16" font-weight="700" fill="#1a202c" text-anchor="middle" transform="rotate(90 416 220)">EAST</text>
+
+  <!-- Axis direction hints -->
+  <line x1="120" y1="50" x2="320" y2="50" stroke="#4a5568" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="330" y="54" font-size="12" fill="#4a5568">x</text>
+  <line x1="50" y1="120" x2="50" y2="320" stroke="#4a5568" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="46" y="338" font-size="12" fill="#4a5568">y</text>
+</svg>
