@@ -2,7 +2,7 @@
 
 A project to help you set up and run your own bot for the Light-Vehikl game.
 
-Your bot only needs to implement one public function `decideMove`.
+Your bot only needs to implement two public functions `decideMove` and `name`.
 
 On each server event, the server will send out the state of the arena via a websocket.
 This project has already been set up to receive that websocket event and pass the Arena
@@ -12,12 +12,12 @@ You can use the public functions and the data on the Arena object to decide whic
 you want to move on the next turn. (See the Enum, values are NORTH, SOUTH, EAST, WEST).
 
 0,0 is the top left of the grid (North West corner)
-25, 25 is the bottom right of the grid (South East corner)
+49, 49 is the bottom right of the grid (South East corner)
 
-![Grid coordinates: 0,0 is the North West corner, 25,25 is the South East corner](docs/grid-coordinates.svg)
+![Grid coordinates: 0,0 is the North West corner, 49,49 is the South East corner](docs/grid-coordinates.svg)
 
 Starting position is determined by the order players or bots join the game.
-Currently the possible starting positions are [0,0], [0,25], [25,0], [25,25]
+Currently the possible starting positions are [0,0], [0,49], [49,0], [49,49].
 
 You can check your location with $player->getLocation().
 
