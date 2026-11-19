@@ -21,8 +21,8 @@ class Play extends Command
      * @var string
      */
     protected $description = 'Would you like to play a game?';
-    protected string $host = 'http://light-vehikl.rustyblog.com';
-    protected string $webSocketHost = 'ws://ws.light-vehikl.rustyblog.com/app/';
+    protected string $host = 'https://light-vehikl.rustyblog.com';
+    protected string $webSocketHost = 'wss://ws.light-vehikl.rustyblog.com/app/';
     private string|array|bool|null $gameId;
     private BotClient $client;
 

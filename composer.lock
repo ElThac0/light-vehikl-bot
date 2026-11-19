@@ -2534,16 +2534,16 @@
         },
         {
             "name": "light-vehikl/lvobjects",
-            "version": "0.2.7-alpha",
+            "version": "0.2.8-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ElThac0/light-vehikl-objects.git",
-                "reference": "b8a08cf2775137c13a26d08a2686db69f6d7fc22"
+                "reference": "2ba27360b4b7489ec58b91715d6d745b9a96b4b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ElThac0/light-vehikl-objects/zipball/b8a08cf2775137c13a26d08a2686db69f6d7fc22",
-                "reference": "b8a08cf2775137c13a26d08a2686db69f6d7fc22",
+                "url": "https://api.github.com/repos/ElThac0/light-vehikl-objects/zipball/2ba27360b4b7489ec58b91715d6d745b9a96b4b3",
+                "reference": "2ba27360b4b7489ec58b91715d6d745b9a96b4b3",
                 "shasum": ""
             },
             "require": {
@@ -2578,9 +2578,9 @@
             "description": "Light Vehikl Game Object framework",
             "support": {
                 "issues": "https://github.com/ElThac0/light-vehikl-objects/issues",
-                "source": "https://github.com/ElThac0/light-vehikl-objects/tree/0.2.7-alpha"
+                "source": "https://github.com/ElThac0/light-vehikl-objects/tree/0.2.8-alpha"
             },
-            "time": "2026-11-12T21:37:14+00:00"
+            "time": "2026-11-19T21:33:13+00:00"
         },
         {
             "name": "nesbot/carbon",
